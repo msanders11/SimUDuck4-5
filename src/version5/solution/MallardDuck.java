@@ -26,8 +26,8 @@ public class MallardDuck implements Duck {
 
     public MallardDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
         // these properties are inherited from Duck
-        this.quackBehavior = quackBehavior;
-        this.flyBehavior = flyBehavior;
+        setQuackBehavior(quackBehavior);
+        setFlyBehavior(flyBehavior);
     }
 
     @Override

@@ -11,8 +11,8 @@ public class ModelDuck implements Duck{
     QuackBehavior quackBehavior;
 
     public ModelDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-        this.flyBehavior = flyBehavior;
-        this.quackBehavior = quackBehavior;
+        setFlyBehavior(flyBehavior);
+        setQuackBehavior(quackBehavior);
     }
 
     public final FlyBehavior getFlyBehavior() {

@@ -15,8 +15,8 @@ public class RubberDuck implements Duck{
     QuackBehavior qauckBehavior;
 
     public RubberDuck(FlyBehavior flyBehavior, QuackBehavior qauckBehavior) {
-        this.flyBehavior = flyBehavior;
-        this.qauckBehavior = qauckBehavior;
+        setFlyBehavior(flyBehavior);
+        setQuackBehavior(qauckBehavior);
     }
 
     public final FlyBehavior getFlyBehavior() {
