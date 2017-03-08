@@ -11,8 +11,8 @@ package version5.solution;
  */
 public class RubberDuck implements Duck{
     
-    FlyBehavior flyBehavior;
-    QuackBehavior qauckBehavior;
+    private FlyBehavior flyBehavior;
+    private QuackBehavior qauckBehavior;
 
     public RubberDuck(FlyBehavior flyBehavior, QuackBehavior qauckBehavior) {
         setFlyBehavior(flyBehavior);

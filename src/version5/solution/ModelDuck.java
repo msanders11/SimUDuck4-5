@@ -7,8 +7,8 @@ package version5.solution;
  */
 public class ModelDuck implements Duck{
     
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    private FlyBehavior flyBehavior;
+    private QuackBehavior quackBehavior;
 
     public ModelDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
         setFlyBehavior(flyBehavior);
